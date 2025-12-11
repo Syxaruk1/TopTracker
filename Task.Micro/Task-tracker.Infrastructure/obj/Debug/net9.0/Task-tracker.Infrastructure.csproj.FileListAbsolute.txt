@@ -1,0 +1,17 @@
+C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\bin\Debug\net9.0\Task-tracker.Infrastructure.deps.json
+C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\bin\Debug\net9.0\Task-tracker.Infrastructure.dll
+C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\bin\Debug\net9.0\Task-tracker.Infrastructure.pdb
+C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\bin\Debug\net9.0\Task-tracker.Domain.dll
+C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\bin\Debug\net9.0\Task-tracker.Domain.pdb
+C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.AssemblyInfo.cs
+C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tra.1E0633FD.Up2Date
+C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.dll
+C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\refint\Task-tracker.Infrastructure.dll
+C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.pdb
+C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\ref\Task-tracker.Infrastructure.dll
+C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\bin\Debug\net9.0\Task-tracker.Infrastructure.runtimeconfig.json
+C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.genruntimeconfig.cache
