@@ -13,8 +13,6 @@ namespace Task_tracker.Domain.Models;
 /// </summary>
 public class Task : Entity
 {
-    public string Title { get; set; } = string.Empty;
-    public string? Description { get; set; }
     public DateTime? StartDate { get; set; }
     public DateTime? EndDate { get; set; }
     public StatusTask Status { get; set; } = StatusTask.Waiting;

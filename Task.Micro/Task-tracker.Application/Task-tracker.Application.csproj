@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>Task_tracker.Application</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Task-tracker.Domain\Task-tracker.Domain.csproj" />
+    <ProjectReference Include="..\Task-tracker.Infrastructure\Task-tracker.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
