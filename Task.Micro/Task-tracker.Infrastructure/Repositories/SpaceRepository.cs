@@ -11,7 +11,7 @@ public class SpaceRepository
     {
     private static IDictionary<string, Space> Spaces = new Dictionary<string, Space>();
 
-    public void AddSpace(Space space)
+    public void Add(Space space)
     { 
         Spaces[space.Title] = space; 
     }

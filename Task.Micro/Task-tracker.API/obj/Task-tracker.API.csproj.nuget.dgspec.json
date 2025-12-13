@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\krutm\\OneDrive\\Рабочий стол\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.API\\Task-tracker.API.csproj": {}
+    "C:\\Users\\yaros\\Личные файлы\\Программирование\\VS - Проекты\\Мохамед\\TOP_Tracker\\Task.Micro\\Task-tracker.API\\Task-tracker.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\krutm\\OneDrive\\Рабочий стол\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.API\\Task-tracker.API.csproj": {
+    "C:\\Users\\yaros\\Личные файлы\\Программирование\\VS - Проекты\\Мохамед\\TOP_Tracker\\Task.Micro\\Task-tracker.API\\Task-tracker.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\krutm\\OneDrive\\Рабочий стол\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.API\\Task-tracker.API.csproj",
+        "projectUniqueName": "C:\\Users\\yaros\\Личные файлы\\Программирование\\VS - Проекты\\Мохамед\\TOP_Tracker\\Task.Micro\\Task-tracker.API\\Task-tracker.API.csproj",
         "projectName": "Task-tracker.API",
-        "projectPath": "C:\\Users\\krutm\\OneDrive\\Рабочий стол\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.API\\Task-tracker.API.csproj",
-        "packagesPath": "C:\\Users\\krutm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\krutm\\OneDrive\\Рабочий стол\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.API\\obj\\",
+        "projectPath": "C:\\Users\\yaros\\Личные файлы\\Программирование\\VS - Проекты\\Мохамед\\TOP_Tracker\\Task.Micro\\Task-tracker.API\\Task-tracker.API.csproj",
+        "packagesPath": "C:\\Users\\yaros\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yaros\\Личные файлы\\Программирование\\VS - Проекты\\Мохамед\\TOP_Tracker\\Task.Micro\\Task-tracker.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\krutm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yaros\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\krutm\\OneDrive\\Рабочий стол\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Infrastructure\\Task-tracker.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\krutm\\OneDrive\\Рабочий стол\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Infrastructure\\Task-tracker.Infrastructure.csproj"
+              "C:\\Users\\yaros\\Личные файлы\\Программирование\\VS - Проекты\\Мохамед\\TOP_Tracker\\Task.Micro\\Task-tracker.Infrastructure\\Task-tracker.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\yaros\\Личные файлы\\Программирование\\VS - Проекты\\Мохамед\\TOP_Tracker\\Task.Micro\\Task-tracker.Infrastructure\\Task-tracker.Infrastructure.csproj"
               }
             }
           }
@@ -49,7 +48,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -89,24 +88,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\krutm\\OneDrive\\Рабочий стол\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Domain\\Task-tracker.Domain.csproj": {
+    "C:\\Users\\yaros\\Личные файлы\\Программирование\\VS - Проекты\\Мохамед\\TOP_Tracker\\Task.Micro\\Task-tracker.Domain\\Task-tracker.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\krutm\\OneDrive\\Рабочий стол\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Domain\\Task-tracker.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\yaros\\Личные файлы\\Программирование\\VS - Проекты\\Мохамед\\TOP_Tracker\\Task.Micro\\Task-tracker.Domain\\Task-tracker.Domain.csproj",
         "projectName": "Task-tracker.Domain",
-        "projectPath": "C:\\Users\\krutm\\OneDrive\\Рабочий стол\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Domain\\Task-tracker.Domain.csproj",
-        "packagesPath": "C:\\Users\\krutm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\krutm\\OneDrive\\Рабочий стол\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Domain\\obj\\",
+        "projectPath": "C:\\Users\\yaros\\Личные файлы\\Программирование\\VS - Проекты\\Мохамед\\TOP_Tracker\\Task.Micro\\Task-tracker.Domain\\Task-tracker.Domain.csproj",
+        "packagesPath": "C:\\Users\\yaros\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yaros\\Личные файлы\\Программирование\\VS - Проекты\\Мохамед\\TOP_Tracker\\Task.Micro\\Task-tracker.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\krutm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yaros\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -115,7 +114,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -134,7 +132,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -155,24 +153,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\krutm\\OneDrive\\Рабочий стол\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Infrastructure\\Task-tracker.Infrastructure.csproj": {
+    "C:\\Users\\yaros\\Личные файлы\\Программирование\\VS - Проекты\\Мохамед\\TOP_Tracker\\Task.Micro\\Task-tracker.Infrastructure\\Task-tracker.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\krutm\\OneDrive\\Рабочий стол\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Infrastructure\\Task-tracker.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\yaros\\Личные файлы\\Программирование\\VS - Проекты\\Мохамед\\TOP_Tracker\\Task.Micro\\Task-tracker.Infrastructure\\Task-tracker.Infrastructure.csproj",
         "projectName": "Task-tracker.Infrastructure",
-        "projectPath": "C:\\Users\\krutm\\OneDrive\\Рабочий стол\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Infrastructure\\Task-tracker.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\krutm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\krutm\\OneDrive\\Рабочий стол\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\yaros\\Личные файлы\\Программирование\\VS - Проекты\\Мохамед\\TOP_Tracker\\Task.Micro\\Task-tracker.Infrastructure\\Task-tracker.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\yaros\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yaros\\Личные файлы\\Программирование\\VS - Проекты\\Мохамед\\TOP_Tracker\\Task.Micro\\Task-tracker.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\krutm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yaros\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -181,15 +179,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\krutm\\OneDrive\\Рабочий стол\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Domain\\Task-tracker.Domain.csproj": {
-                "projectPath": "C:\\Users\\krutm\\OneDrive\\Рабочий стол\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Domain\\Task-tracker.Domain.csproj"
+              "C:\\Users\\yaros\\Личные файлы\\Программирование\\VS - Проекты\\Мохамед\\TOP_Tracker\\Task.Micro\\Task-tracker.Domain\\Task-tracker.Domain.csproj": {
+                "projectPath": "C:\\Users\\yaros\\Личные файлы\\Программирование\\VS - Проекты\\Мохамед\\TOP_Tracker\\Task.Micro\\Task-tracker.Domain\\Task-tracker.Domain.csproj"
               }
             }
           }
@@ -204,7 +201,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -241,7 +238,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -15,7 +15,7 @@ public class TaskService(TaskRepository taskRepository)
         {
             Title = title
         };
-        taskRepository.AddTask(task);
+        taskRepository.Add(task);
     }
     // Перегрузка ниже для какого-нибудь "расширенного режима" добавления задачи, в котором сразу нужно будет настроить всё необходимое
     // при изначальном подходе указывается только название задачи, а далее всё остальное можно будет настроить вручную
@@ -29,6 +29,6 @@ public class TaskService(TaskRepository taskRepository)
             EndDate = endDate,
             DesignatedUserId = designatedUserId
         };
-        taskRepository.AddTask(task);
+        taskRepository.Add(task);
     }
 }

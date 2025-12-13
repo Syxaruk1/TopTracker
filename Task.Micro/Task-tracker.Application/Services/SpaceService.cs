@@ -17,7 +17,7 @@ public class SpaceService(SpaceRepository spaceRepository)
             Title = title,
             OwnerId = ownerid
         };
-        spaceRepository.AddSpace(space);
+        spaceRepository.Add(space);
     }
     public void AddNewSpace(string title, string desc, Guid ownerid)
     {
@@ -27,6 +27,6 @@ public class SpaceService(SpaceRepository spaceRepository)
             Description = desc,
             OwnerId = ownerid
         };
-        spaceRepository.AddSpace(space);
+        spaceRepository.Add(space);
     }
 }

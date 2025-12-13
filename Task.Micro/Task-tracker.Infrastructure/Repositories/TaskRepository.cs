@@ -12,7 +12,7 @@ namespace Task_tracker.Infrastructure.Repositories
     {
         private static IDictionary<string, Domain.Models.Task> Tasks = new Dictionary<string, Domain.Models.Task>();
         
-        public void AddTask(Domain.Models.Task task)
+        public void Add(Domain.Models.Task task)
         { 
             Tasks[task.Title] = task; 
         }

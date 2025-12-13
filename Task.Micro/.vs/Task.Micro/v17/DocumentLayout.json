@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\krutm\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Task-tracker\\Backend\\Task.Micro\\",
+  "WorkspaceRootPath": "C:\\Users\\yaros\\\u041B\u0438\u0447\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\VS - \u041F\u0440\u043E\u0435\u043A\u0442\u044B\\\u041C\u043E\u0445\u0430\u043C\u0435\u0434\\TOP_Tracker\\Task.Micro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67FA305D-15AA-43E9-B652-4B45ADC497A7}|Task-tracker.Infrastructure\\Task-tracker.Infrastructure.csproj|c:\\users\\krutm\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\task-tracker\\backend\\task.micro\\task-tracker.infrastructure\\database\\taskcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67FA305D-15AA-43E9-B652-4B45ADC497A7}|Task-tracker.Infrastructure\\Task-tracker.Infrastructure.csproj|solutionrelative:task-tracker.infrastructure\\database\\taskcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4427804-0037-4F46-BFFA-F0C54DDF9A28}|Task-tracker.Application\\Task-tracker.Application.csproj|c:\\users\\yaros\\\u043B\u0438\u0447\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\vs - \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\\u043C\u043E\u0445\u0430\u043C\u0435\u0434\\top_tracker\\task.micro\\task-tracker.application\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4427804-0037-4F46-BFFA-F0C54DDF9A28}|Task-tracker.Application\\Task-tracker.Application.csproj|solutionrelative:task-tracker.application\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EB35196-4213-4B10-81F6-0C574B983CBF}|Task-tracker.API\\Task-tracker.API.csproj|c:\\users\\krutm\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\task-tracker\\backend\\task.micro\\task-tracker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EB35196-4213-4B10-81F6-0C574B983CBF}|Task-tracker.API\\Task-tracker.API.csproj|solutionrelative:task-tracker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4427804-0037-4F46-BFFA-F0C54DDF9A28}|Task-tracker.Application\\Task-tracker.Application.csproj|c:\\users\\yaros\\\u043B\u0438\u0447\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\vs - \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\\u043C\u043E\u0445\u0430\u043C\u0435\u0434\\top_tracker\\task.micro\\task-tracker.application\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4427804-0037-4F46-BFFA-F0C54DDF9A28}|Task-tracker.Application\\Task-tracker.Application.csproj|solutionrelative:task-tracker.application\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EB35196-4213-4B10-81F6-0C574B983CBF}|Task-tracker.API\\Task-tracker.API.csproj|c:\\users\\krutm\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\task-tracker\\backend\\task.micro\\task-tracker.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1EB35196-4213-4B10-81F6-0C574B983CBF}|Task-tracker.API\\Task-tracker.API.csproj|solutionrelative:task-tracker.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F1A2F05-5CE8-449E-83A5-8E5698C3765D}|Task-tracker.Domain\\Task-tracker.Domain.csproj|c:\\users\\krutm\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\task-tracker\\backend\\task.micro\\task-tracker.domain\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F1A2F05-5CE8-449E-83A5-8E5698C3765D}|Task-tracker.Domain\\Task-tracker.Domain.csproj|solutionrelative:task-tracker.domain\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67FA305D-15AA-43E9-B652-4B45ADC497A7}|Task-tracker.Infrastructure\\Task-tracker.Infrastructure.csproj|c:\\users\\krutm\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\task-tracker\\backend\\task.micro\\task-tracker.infrastructure\\configurationentites\\taskconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67FA305D-15AA-43E9-B652-4B45ADC497A7}|Task-tracker.Infrastructure\\Task-tracker.Infrastructure.csproj|solutionrelative:task-tracker.infrastructure\\configurationentites\\taskconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67FA305D-15AA-43E9-B652-4B45ADC497A7}|Task-tracker.Infrastructure\\Task-tracker.Infrastructure.csproj|c:\\users\\yaros\\\u043B\u0438\u0447\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\vs - \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\\u043C\u043E\u0445\u0430\u043C\u0435\u0434\\top_tracker\\task.micro\\task-tracker.infrastructure\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67FA305D-15AA-43E9-B652-4B45ADC497A7}|Task-tracker.Infrastructure\\Task-tracker.Infrastructure.csproj|solutionrelative:task-tracker.infrastructure\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +22,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 132,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yaros\\\u041B\u0438\u0447\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\VS - \u041F\u0440\u043E\u0435\u043A\u0442\u044B\\\u041C\u043E\u0445\u0430\u043C\u0435\u0434\\TOP_Tracker\\Task.Micro\\Task-tracker.Infrastructure\\Repositories\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "Task-tracker.Infrastructure\\Repositories\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\yaros\\\u041B\u0438\u0447\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\VS - \u041F\u0440\u043E\u0435\u043A\u0442\u044B\\\u041C\u043E\u0445\u0430\u043C\u0435\u0434\\TOP_Tracker\\Task.Micro\\Task-tracker.Infrastructure\\Repositories\\AccountRepository.cs",
+              "RelativeToolTip": "Task-tracker.Infrastructure\\Repositories\\AccountRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T11:51:02.324Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\yaros\\\u041B\u0438\u0447\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\VS - \u041F\u0440\u043E\u0435\u043A\u0442\u044B\\\u041C\u043E\u0445\u0430\u043C\u0435\u0434\\TOP_Tracker\\Task.Micro\\Task-tracker.Application\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Task-tracker.Application\\Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\yaros\\\u041B\u0438\u0447\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\VS - \u041F\u0440\u043E\u0435\u043A\u0442\u044B\\\u041C\u043E\u0445\u0430\u043C\u0435\u0434\\TOP_Tracker\\Task.Micro\\Task-tracker.Application\\Services\\JwtService.cs",
+              "RelativeToolTip": "Task-tracker.Application\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T02:54:36.161Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\yaros\\\u041B\u0438\u0447\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\VS - \u041F\u0440\u043E\u0435\u043A\u0442\u044B\\\u041C\u043E\u0445\u0430\u043C\u0435\u0434\\TOP_Tracker\\Task.Micro\\Task-tracker.Application\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "Task-tracker.Application\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\yaros\\\u041B\u0438\u0447\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\VS - \u041F\u0440\u043E\u0435\u043A\u0442\u044B\\\u041C\u043E\u0445\u0430\u043C\u0435\u0434\\TOP_Tracker\\Task.Micro\\Task-tracker.Application\\Services\\AccountService.cs",
+              "RelativeToolTip": "Task-tracker.Application\\Services\\AccountService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T02:43:10.981Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -42,76 +82,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\krutm\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Task-tracker.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\krutm\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.API\\appsettings.json",
-              "RelativeToolTip": "Task-tracker.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-11T11:47:34.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TaskConfig.cs",
-              "DocumentMoniker": "C:\\Users\\krutm\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Infrastructure\\ConfigurationEntites\\TaskConfig.cs",
-              "RelativeDocumentMoniker": "Task-tracker.Infrastructure\\ConfigurationEntites\\TaskConfig.cs",
-              "ToolTip": "C:\\Users\\krutm\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Infrastructure\\ConfigurationEntites\\TaskConfig.cs",
-              "RelativeToolTip": "Task-tracker.Infrastructure\\ConfigurationEntites\\TaskConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T11:43:56.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Task.cs",
-              "DocumentMoniker": "C:\\Users\\krutm\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Domain\\Models\\Task.cs",
-              "RelativeDocumentMoniker": "Task-tracker.Domain\\Models\\Task.cs",
-              "ToolTip": "C:\\Users\\krutm\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Domain\\Models\\Task.cs",
-              "RelativeToolTip": "Task-tracker.Domain\\Models\\Task.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T11:42:54.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\krutm\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.API\\Program.cs",
-              "RelativeDocumentMoniker": "Task-tracker.API\\Program.cs",
-              "ToolTip": "C:\\Users\\krutm\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.API\\Program.cs",
-              "RelativeToolTip": "Task-tracker.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T11:28:27.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TaskContext.cs",
-              "DocumentMoniker": "C:\\Users\\krutm\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Infrastructure\\Database\\TaskContext.cs",
-              "RelativeDocumentMoniker": "Task-tracker.Infrastructure\\Database\\TaskContext.cs",
-              "ToolTip": "C:\\Users\\krutm\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Task-tracker\\Backend\\Task.Micro\\Task-tracker.Infrastructure\\Database\\TaskContext.cs",
-              "RelativeToolTip": "Task-tracker.Infrastructure\\Database\\TaskContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T11:08:02.934Z",
-              "EditorCaption": ""
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }
