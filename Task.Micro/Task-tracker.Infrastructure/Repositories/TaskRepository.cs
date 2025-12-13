@@ -1,32 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Task_tracker.Domain.Enums;
-using Task_tracker.Domain.Models;
+﻿namespace Task_tracker.Infrastructure.Repositories;
 
-namespace Task_tracker.Infrastructure.Repositories
+public class TaskRepository
 {
-    public class TaskRepository
-    {
-        private static IDictionary<string, Domain.Models.Task> Tasks = new Dictionary<string, Domain.Models.Task>();
-        
-        public void Add(Domain.Models.Task task)
-        { 
-            Tasks[task.Title] = task; 
-        }
+    private static IDictionary<string, Domain.Models.Task> Tasks = new Dictionary<string, Domain.Models.Task>();
 
-        public Domain.Models.Task? GetByTitle(string title)
+    public void Add(Domain.Models.Task task)
+    {
+        Tasks[task.Title] = task;
+    }
+
+    public Domain.Models.Task? GetByTitle(string title)
+    {
+        try
         {
-            try
-            { 
-                return Tasks[title]; 
-            }
-            catch
-            { 
-                return null; 
-            }
+            return Tasks[title];
+        }
+        catch
+        {
+            return null;
         }
     }
 }

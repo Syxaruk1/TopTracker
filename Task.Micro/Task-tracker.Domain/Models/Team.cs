@@ -8,5 +8,5 @@ using System.Threading.Tasks;
 public class Team : Entity
 {
     public IEnumerable<User> Users { get; set; } = [];
-    int TeamSize { get; set; }; // CountUsers, но по-другому
+    int TeamSize { get; set; } // CountUsers, но по-другому
 }

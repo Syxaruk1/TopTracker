@@ -1,6 +1,19 @@
 @Task_tracker.API_HostAddress = http://localhost:5270
 
-GET {{Task_tracker.API_HostAddress}}/weatherforecast/
-Accept: application/json
+POST {{Task_tracker.API_HostAddress}}/account/register/
+Content-Type: application/json
+{
+  "UserName": "Wrrre",
+  "Email": "dsafsa@gmail.com",
+  "Password": "passw"
+}
+###
 
+POST {{Task_tracker.API_HostAddress}}/account/login/
+Content-Type: application/json
+{
+  "UserName": "Wrrre",
+  "Email": "dsafsa@gmail.com",
+  "Password": "passw"
+}
 ###

@@ -18,8 +18,8 @@ public class JwtService
         var claims = new List<Claim> { new Claim("Email", user.Email), new Claim("Password", user.Password) };
         var jwt = new JwtSecurityToken(
             claims: claims,
-            expires: DateTime.UtcNow.Add(TimeSpan.FromMinutes(2)),
-            signingCredentials: new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes("CekpetKey")), SecurityAlgorithms.HmacSha256)
+            expires: DateTime.UtcNow.Add(TimeSpan.FromMinutes(15)),
+            signingCredentials: new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes("CekpetKeyCekpetKeyCekpetKeyCekpetKeyCekpetKeyCekpetKey")), SecurityAlgorithms.HmacSha256)
             );
         return new JwtSecurityTokenHandler().WriteToken(jwt);
     }

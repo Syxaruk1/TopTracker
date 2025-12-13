@@ -15,3 +15,21 @@ C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\
 C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\ref\Task-tracker.Infrastructure.dll
 C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\bin\Debug\net9.0\Task-tracker.Infrastructure.runtimeconfig.json
 C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.genruntimeconfig.cache
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.AssemblyInfo.cs
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.sourcelink.json
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.dll
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\refint\Task-tracker.Infrastructure.dll
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.pdb
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\bin\Debug\net9.0\Task-tracker.Infrastructure.deps.json
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\bin\Debug\net9.0\Task-tracker.Infrastructure.runtimeconfig.json
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\bin\Debug\net9.0\Task-tracker.Infrastructure.dll
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\bin\Debug\net9.0\Task-tracker.Infrastructure.pdb
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\bin\Debug\net9.0\Task-tracker.Domain.dll
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\bin\Debug\net9.0\Task-tracker.Domain.pdb
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tra.1E0633FD.Up2Date
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\Task-tracker.Infrastructure.genruntimeconfig.cache
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Infrastructure\obj\Debug\net9.0\ref\Task-tracker.Infrastructure.dll

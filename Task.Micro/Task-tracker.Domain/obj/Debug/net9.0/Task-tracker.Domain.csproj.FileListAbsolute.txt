@@ -9,3 +9,15 @@ C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\
 C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Domain\obj\Debug\net9.0\refint\Task-tracker.Domain.dll
 C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Domain\obj\Debug\net9.0\Task-tracker.Domain.pdb
 C:\Users\krutm\OneDrive\Рабочий стол\Task-tracker\Backend\Task.Micro\Task-tracker.Domain\obj\Debug\net9.0\ref\Task-tracker.Domain.dll
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Domain\obj\Debug\net9.0\Task-tracker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Domain\obj\Debug\net9.0\Task-tracker.Domain.AssemblyInfoInputs.cache
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Domain\obj\Debug\net9.0\Task-tracker.Domain.AssemblyInfo.cs
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Domain\obj\Debug\net9.0\Task-tracker.Domain.csproj.CoreCompileInputs.cache
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Domain\obj\Debug\net9.0\Task-tracker.Domain.sourcelink.json
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Domain\obj\Debug\net9.0\Task-tracker.Domain.dll
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Domain\obj\Debug\net9.0\refint\Task-tracker.Domain.dll
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Domain\obj\Debug\net9.0\Task-tracker.Domain.pdb
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Domain\bin\Debug\net9.0\Task-tracker.Domain.deps.json
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Domain\bin\Debug\net9.0\Task-tracker.Domain.dll
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Domain\bin\Debug\net9.0\Task-tracker.Domain.pdb
+C:\Users\yaros\Личные файлы\Программирование\VS - Проекты\Мохамед\TOP_Tracker\Task.Micro\Task-tracker.Domain\obj\Debug\net9.0\ref\Task-tracker.Domain.dll
