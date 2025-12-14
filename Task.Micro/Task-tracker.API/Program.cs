@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.CookiePolicy;
 using Microsoft.EntityFrameworkCore;
 using Task_tracker.Application.Services;
 using Task_tracker.Infrastructure.Database;
@@ -27,6 +28,13 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
     
 }
+
+app.UseCookiePolicy(new CookiePolicyOptions
+{
+    MinimumSameSitePolicy = SameSiteMode.Strict,
+    HttpOnly = HttpOnlyPolicy.Always,
+    Secure = CookieSecurePolicy.Always
+});
 
 app.UseHttpsRedirection();
 

@@ -29,4 +29,9 @@ public class SpaceService(SpaceRepository spaceRepository)
         };
         spaceRepository.Add(space);
     }
+
+    public void AddTaskToSpace(Domain.Models.Task task, Space space)
+    {
+        space.Tasks.Append(task);
+    }
 }
