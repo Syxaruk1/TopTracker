@@ -1,0 +1,104 @@
+.side-bar{
+    width: 100px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.54);
+    position: absolute;
+}
+
+
+li{
+    list-style-type: none;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+ul > div{
+    display: none;
+}
+
+ul span{
+    pointer-events: none;
+    user-select: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 98px;
+}
+
+.sector-span
+{
+    & > div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 15px;
+        padding-top: 4px;
+        opacity: 0.5;
+
+    }
+}
+
+.new-space{
+
+    & button{
+        background-color: transparent; 
+        border: 0px; 
+        font-size: 20px;
+        padding: 5px 10px 5px 10px;
+    }
+
+    & button:hover{
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 10px;
+    }
+}
+    
+.underList{
+    width: 100%;
+}
+
+ul li span{
+    display: none;
+}
+
+.hide-Span{
+    & li
+    {
+        background: rgba(181, 184, 180,0.62);
+        padding: 5px 80px 5px 30px;
+        border-radius: 10px;
+
+            & span
+            {
+                display: inline-block;
+            }
+    }
+}
+
+.navigate{
+    margin-top: 20px;
+    margin-bottom: 39px;
+    transform: rotate(0.5turn);
+}
+.list{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+
+    height: calc(100% - 109px);
+    display: flex; 
+    justify-content: center;
+}
+
+.icon{
+    width: 45px;
+    user-select: none;
+}

@@ -1,0 +1,58 @@
+.modal-space{
+    width: 460px;
+    height: auto;
+    background: white;
+    position: absolute;
+    right: 2%;
+    top: 20%;
+    border-radius: 24px;
+    filter: drop-shadow(0px 8px 24px rgba(0,0,0,0.3));
+
+    padding: 22px; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 30px;
+}
+
+.current{
+    border: 1px solid green;
+}
+.span-section{
+    padding-left: 10px;
+}
+
+.card-type-space{
+    border: 1px solid rgba(191,191,191,1); 
+    display: flex;
+    width: 130px;
+    height: 78px; 
+    flex-direction: column; 
+    padding: 5px 10px 10px 15px;
+    border-radius: 10px;
+}
+
+.span-description-type-space{
+    opacity: 0.5
+}
+
+.image-type-space{
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.section-space{
+    display: flex; 
+    flex-direction: column;
+    gap: 5px;
+}
+
+.button-add-space{
+    width: fit-content; 
+    display: flex; 
+    align-items: center; 
+    gap: 8px; 
+    padding: 12px 20px 12px 20px; 
+    border-radius: 10px; 
+    border: 1px solid rgba(191,191,191,1); 
+    background: linear-gradient(rgba(62,166,90,0.6),rgba(111,191,115,1));
+}

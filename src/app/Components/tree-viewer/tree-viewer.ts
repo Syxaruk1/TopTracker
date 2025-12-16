@@ -1,30 +1,32 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import * as Three from 'three';
-import { GLTFLoader, OrbitControls, Sky } from 'three/examples/jsm/Addons.js';
-import { toHalfFloat } from 'three/src/extras/DataUtils.js';
-import { string } from 'three/tsl';
+import { GLTFLoader, OrbitControls } from 'three/examples/jsm/Addons.js';
+import { Sky } from 'three/examples/jsm/objects/Sky.js';
 
 @Component({
   selector: 'app-tree-viewer',
   imports: [],
+  standalone: true,
   templateUrl: './tree-viewer.html',
   styleUrl: './tree-viewer.css',
 })
 
-export class TreeViewer implements OnInit{
+export class TreeViewer implements AfterViewInit, OnDestroy{
 
-  private render;
+  @ViewChild('canvasContainer') 
+  private canvasContainer!: ElementRef;
+  private animationId: number = 0;
+  private render!: Three.WebGLRenderer;
   private scene;
   private camera;
-  private controls;
-  private sky;
+  private controls!: OrbitControls;
+  private sky!: Sky;
   private textureLoader;
   private modelLoader;
   private textureWood: TextureWood;
   private raycaster;
 
   constructor() {
-    this.render = new Three.WebGLRenderer({antialias: true, alpha: true})
     this.scene = new Three.Scene();
     this.camera = new Three.PerspectiveCamera(
       75, 
@@ -32,8 +34,7 @@ export class TreeViewer implements OnInit{
       0.1,
       1000
     )
-    this.controls = new OrbitControls(this.camera);
-    this.sky = new Sky();
+
     this.textureLoader = new Three.TextureLoader();
     this.modelLoader = new GLTFLoader();
     this.textureWood = {
@@ -45,10 +46,16 @@ export class TreeViewer implements OnInit{
     };
     this.raycaster = new Three.Raycaster();
   }
+  ngOnDestroy(): void {
+    cancelAnimationFrame(this.animationId);
+  }
 
-  ngOnInit(): void {
+  ngAfterViewInit(): void {
     this.configRender();
     this.configCamera();
+    this.controls = new OrbitControls(this.camera, this.render.domElement);
+    this.sky = new Sky();
+    
     this.configControls();
     this.configLight();
     this.loadingModelPlane();
@@ -58,6 +65,21 @@ export class TreeViewer implements OnInit{
     this.loadingTextureForWood();
     this.animate();
   }
+
+  applyWoodMaterial(mesh: Three.Mesh): void {
+
+    mesh.material = new Three.MeshStandardMaterial({
+      map: this.textureWood.map!,
+      aoMap: this.textureWood.aoMap!,
+      aoMapIntensity: 1,
+      roughnessMap: this.textureWood.roughnessMap!,
+      displacementMap: this.textureWood.displacementMap!,
+      displacementScale: 0.05,
+      normalMap: this.textureWood.normalMap!,
+      normalScale: new Three.Vector2(2, 2)
+    });
+  (mesh.material as Three.MeshStandardMaterial).needsUpdate = true;
+ }
 
   loadingModelBranch()
   {
@@ -70,17 +92,7 @@ export class TreeViewer implements OnInit{
       model.traverse((children)=>{
         if(children instanceof Three.Mesh)
         {
-          children.material = new Three.MeshStandardMaterial({
-            map: this.textureWood.map,
-            aoMap: this.textureWood.aoMap,
-            aoMapIntensity: 1,
-            roughnessMap: this.textureWood.roughnessMap,
-            displacementMap: this.textureWood.displacementMap,
-            displacementScale: 0.05,
-            normalMap: this.textureWood.normalMap,
-            normalScale: new Three.Vector2(2,2)
-          }); 
-          children.material.needsUpdate = true;
+          this.applyWoodMaterial(children);
         }
       })
 
@@ -113,17 +125,7 @@ export class TreeViewer implements OnInit{
       model.traverse((children)=>{
         if(children instanceof Three.Mesh)
         {
-          children.material = new Three.MeshStandardMaterial({
-            map: this.textureWood.map,
-            aoMap: this.textureWood.aoMap,
-            aoMapIntensity: 1,
-            roughnessMap: this.textureWood.roughnessMap,
-            displacementMap: this.textureWood.displacementMap,
-            displacementScale: 0.05,
-            normalMap: this.textureWood.normalMap,
-            normalScale: new Three.Vector2(2,2)
-          }); 
-          children.material.needsUpdate = true;
+          this.applyWoodMaterial(children);
         }
       })
       const branch = this.scene.getObjectByName(nameBranch) as Three.Mesh;
@@ -185,22 +187,10 @@ export class TreeViewer implements OnInit{
     
       model.traverse((children)=>
       {
-
         if(children instanceof Three.Mesh)
         {
-          children.material = new Three.MeshStandardMaterial({
-            map: this.textureWood.map,
-            aoMap: this.textureWood.aoMap,
-            aoMapIntensity: 1,
-            roughnessMap: this.textureWood.roughnessMap,
-            displacementMap: this.textureWood.displacementMap,
-            displacementScale: 0.05,
-            normalMap: this.textureWood.normalMap,
-            normalScale: new Three.Vector2(2,2)
-          }); 
-          children.material.needsUpdate = true;
+          this.applyWoodMaterial(children);
         }
-
       })
           
       model.scale.set(0.2,0.2,0.2);
@@ -221,7 +211,7 @@ export class TreeViewer implements OnInit{
   configHandler()
   {
     this.render.domElement.addEventListener('pointerdown', (event) => this.Ray("onRayClick",event));
-    this.render.domElement.addEventListener('pointermove', (event) => this.Ray("onRayHover",event));\
+    this.render.domElement.addEventListener('pointermove', (event) => this.Ray("onRayHover",event));
     window.addEventListener('resize', () => {
       this.camera.aspect = window.innerWidth / window.innerHeight;
       this.camera.updateProjectionMatrix();
@@ -290,15 +280,19 @@ export class TreeViewer implements OnInit{
 
   configRender()
   {
+    this.render = new Three.WebGLRenderer({
+      antialias: true, 
+      alpha: true
+    });
     this.render.setSize(window.innerWidth, window.innerHeight);
     this.render.toneMapping = Three.ACESFilmicToneMapping;
     this.render.toneMappingExposure = 0.5;
-    document.body.appendChild(this.render.domElement);
+    this.canvasContainer.nativeElement.appendChild(this.render.domElement);
   }
 
-  animate() 
+  animate = () =>
   {
-      requestAnimationFrame(this.animate);
+      this.animationId = requestAnimationFrame(this.animate);
       this.controls.update(); 
       this.render.render(this.scene, this.camera);
 	};

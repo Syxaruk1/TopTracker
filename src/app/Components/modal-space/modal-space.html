@@ -1,0 +1,25 @@
+<div class="modal-space">
+    <img src="/Icons/ModalSpace/Close.png" height="20" style="margin: 0 0 -30px auto;" (click)="onClose()"/>
+    <h1 style="font-size: 24px; padding-left: 25px;">Создай пространство</h1>
+
+    <div class="section-space">
+        <span class="span-section">Название</span> 
+        <input style="border-radius: 10px; border: 1px solid rgba(191,191,191,1);padding: 10px" placeholder="Мое пространство роста"/>
+    </div>
+
+    <div class="section-space">
+        <span class="span-section">Тип пространства</span>
+        <div style="display: flex; justify-content: space-between; gap: 4px;">
+            @for(item of selectorSpace; track item.title)
+            {
+                <div #card class="card-type-space" (click)="choiseTypeSpace(card)">
+                    <img src={{item.image}} class="image-type-space"/>
+                    <span>{{ item.title}}</span>
+                    <span class="span-description-type-space">{{item.description}}</span>
+                </div>
+            }
+        </div>
+    </div>
+
+    <button class="button-add-space">Создать дерево<img src="/Icons/ModalSpace/Tree.png" width="30"/></button>
+</div>

@@ -1,0 +1,46 @@
+<div class="side-bar" [style.width]="!isShowSpan ? '100px' : '300px'" [style.text-align]="!isShowSpan ? 'center' : 'right'" >
+    
+    <img src="/Icons/Hide-Show.png" class="icon navigate" (click)="hideSpan()" [style.transform]="!isShowSpan ? 'rotate(0)' : 'rotate(0.5turn)'"/>
+
+    <div class="menu">
+        <div class="list">
+            <ul class="underList" [class.hide-Span]="isShowSpan" [class.sector-span]="isShowSpan">
+                <li>
+                    <img src="/Icons/Home.png" class="icon"/> 
+                    <span>Главная</span>
+                </li>
+                <li>
+                    <img src="/Icons/Search.png" class="icon"/> 
+                    <span>Поиск</span>
+                </li>
+
+                <div class="new-space">
+                    <span>Пространства</span>
+                    <button (click)="showSpace()">+</button>
+                </div>
+
+                <li>
+                    <img src="/Icons/Space.png" class="icon"/> 
+                    <span>Мое личное пространство</span>
+                </li>
+            </ul>
+
+            <ul class="underList" [class.hide-Span]="isShowSpan">
+                <li>
+                    <img src="/Icons/Profile.png" class="icon"/> 
+                    <span>Профиль</span>
+                </li>
+                <li>
+                    <img src="/Icons/Team.png" class="icon"/> 
+                    <span>Команда</span>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+@if (isShowModalSpace)
+{
+    <tt-modal-space (closeModal)="isShowModalSpace = false"/>
+}
