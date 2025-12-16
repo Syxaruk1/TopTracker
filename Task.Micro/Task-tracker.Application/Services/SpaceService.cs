@@ -10,28 +10,35 @@ using Task_tracker.Infrastructure.Repositories;
 
 public class SpaceService(SpaceRepository spaceRepository)
 {
-    public void AddNewSpace(string title, Guid ownerid)
-    {
-        var space = new Space()
-        {
-            Title = title,
-            OwnerId = ownerid
-        };
-        spaceRepository.Add(space);
-    }
     public void AddNewSpace(string title, string desc, Guid ownerid)
     {
-        var space = new Space()
-        {
-            Title = title,
-            Description = desc,
-            OwnerId = ownerid
-        };
+        var space = new Space(ownerid, title, desc);
         spaceRepository.Add(space);
     }
-
-    public void AddTaskToSpace(Domain.Models.Task task, Space space)
+    public void UpdateSpace(Space space, string title, string description)
     {
-        space.Tasks.Append(task);
+        spaceRepository.Update(space, title, description);
+    }
+    public void DeleteSpace(int id)
+    {
+        spaceRepository.Delete(spaceRepository.GetById(id));
+    }
+    public void AddMemberToSpace(Space space, User user)
+    {
+        spaceRepository.UpdateMembers(space, user);
+    }
+    public void ChangeOwnerOfSpace(Space space, User user)
+    {
+        spaceRepository.UpdateOwner(space, user);
+    }
+    public void AddTaskToSpace(Space space, Domain.Models.Task task)
+    {
+        IEnumerable<Domain.Models.Task> tasks = space.Tasks;
+        tasks.Append(task);
+        spaceRepository.Update(space, tasks);
+    }
+    public Space? GetById(int id)
+    {
+        return spaceRepository.GetById(id);
     }
 }

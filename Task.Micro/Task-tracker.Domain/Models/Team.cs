@@ -9,4 +9,11 @@ public class Team : Entity
 {
     public IEnumerable<User> Users { get; set; } = [];
     int TeamSize { get; set; } // CountUsers, но по-другому
+
+    public Team(string title, string description, int teamSize)
+    {
+        Title = title;
+        Description = description;
+        TeamSize = teamSize;
+    }
 }

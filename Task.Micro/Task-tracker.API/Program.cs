@@ -11,6 +11,10 @@ builder.Services.AddDbContext<TaskContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("MsSql"));
 });
+builder.Services.AddDbContext<AccountContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MsSql"));
+});
 
 builder.Services.AddScoped<SpaceRepository>();
 builder.Services.AddScoped<TaskRepository>();

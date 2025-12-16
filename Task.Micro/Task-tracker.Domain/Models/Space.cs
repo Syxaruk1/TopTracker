@@ -14,4 +14,13 @@ public class Space : Entity
     public Guid OwnerId { get; set; }
     public IEnumerable<Task> Tasks { get; set; } = [];
     public IEnumerable<Guid> UserIds { get; set; } = [];
+
+    public Space()
+    { }
+    public Space(Guid ownerId, string title, string description)
+    {
+        OwnerId = ownerId;
+        Title = title;
+        Description = description;
+    }
 }

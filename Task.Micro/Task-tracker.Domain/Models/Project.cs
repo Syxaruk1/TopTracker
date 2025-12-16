@@ -11,4 +11,10 @@ public class Project : Entity
 {
     public IEnumerable<Project> Projects { get; set; } = [];
     public IEnumerable<Task> Tasks { get; set; } = [];
+
+    public Project(string title, string description)
+    {
+        Title = title;
+        Description = description;
+    }
 }

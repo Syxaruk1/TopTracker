@@ -14,6 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Task-tracker.Domain\Task-tracker.Domain.csproj" />
     <ProjectReference Include="..\Task-tracker.Infrastructure\Task-tracker.Infrastructure.csproj" />
+    <ProjectReference Include="..\UserInfrastructure\Task-tracker.UserInfrastructure.csproj" />
   </ItemGroup>
 
 </Project>

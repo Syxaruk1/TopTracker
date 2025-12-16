@@ -17,4 +17,12 @@ public class Task : Entity
     public DateTime? EndDate { get; set; }
     public StatusTask Status { get; set; } = StatusTask.Waiting;
     public Guid? DesignatedUserId { get; set; }
+
+    public Task()
+    { }
+    public Task(string title, string description)
+    {
+        Title = title;
+        Description = description;
+    }
 }

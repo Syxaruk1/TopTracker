@@ -12,12 +12,7 @@ public class AccountService(AccountRepository accountRepository, JwtService jwtS
 {
     public void Register(string userName, string email, string password)
     {
-        var user = new User()
-        { 
-            UserName = userName,
-            Email = email,
-            Password = password
-        };
+        var user = new User(userName, email, password);
         accountRepository.Add(user);
     }
 
@@ -32,5 +27,15 @@ public class AccountService(AccountRepository accountRepository, JwtService jwtS
         {
             throw new Exception("Ошибка аутентификации");
         }
+    }
+
+    public void RemoveUser(int id)
+    {
+        accountRepository.Delete(accountRepository.GetById(id));
+    }
+
+    public User? GetById(int id)
+    {
+        return accountRepository.GetById(id);
     }
 }
