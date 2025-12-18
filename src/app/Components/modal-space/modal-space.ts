@@ -1,8 +1,9 @@
+import { NgTemplateOutlet } from '@angular/common';
 import { AfterViewInit, Component, ElementRef, EventEmitter, Output, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'tt-modal-space',
-  imports: [],
+  imports: [NgTemplateOutlet],
   templateUrl: './modal-space.html',
   styleUrl: './modal-space.css',
 })

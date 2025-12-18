@@ -26,6 +26,9 @@ export class TreeViewer implements AfterViewInit, OnDestroy{
   private textureWood: TextureWood;
   private raycaster;
 
+  private currentBranchChoise!: Three.Object3D;
+  private currentUnderBranchChoise!: Three.Object3D | undefined;
+
   constructor() {
     this.scene = new Three.Scene();
     this.camera = new Three.PerspectiveCamera(
@@ -59,7 +62,7 @@ export class TreeViewer implements AfterViewInit, OnDestroy{
     this.configControls();
     this.configLight();
     this.loadingModelPlane();
-    this.loadingModelThree()
+    this.loadingModelThree();
     this.configHandler();
     this.configRaycaster()
     this.loadingTextureForWood();
@@ -86,7 +89,6 @@ export class TreeViewer implements AfterViewInit, OnDestroy{
     const random = allBranch[Math.floor(Math.random() * allBranch.length)];
     this.modelLoader.load(`/Tree/Branches_base_project/${random}.glb`,(gltf)=>
     {
-      console.log(gltf.scene);
       const model = gltf.scene;
       model.scale.set(0.2,0.2,0.2);
       model.traverse((children)=>{
@@ -106,15 +108,19 @@ export class TreeViewer implements AfterViewInit, OnDestroy{
 
       const randomIndex = Math.floor(Math.random() * positions.count);
       const randomVector = new Three.Vector3(positions.getX(randomIndex),positions.getY(randomIndex),positions.getZ(randomIndex));
-
+      model.rotation.x = Math.floor(30 + Math.random() * 90);
+      model.rotation.y = Math.floor(30 + Math.random() * 90);
       model.position.copy(randomVector);
       model.updateMatrixWorld();
       this.scene.add(model);   
 
+      this.currentBranchChoise = model.children[0];
+      console.log(model.children[0]);
+      this.currentUnderBranchChoise = undefined;
     });
   }
 
-  loadingModelUnderBranch(nameBranch: string)
+  loadingModelUnderBranch()
   {
     const randomUnder = allBranchesUnder[Math.floor(Math.random() * allBranchesUnder.length)];
     this.modelLoader.load(`/Tree/Branches_under_project/${randomUnder}.glb`,(gltf)=>
@@ -128,8 +134,8 @@ export class TreeViewer implements AfterViewInit, OnDestroy{
           this.applyWoodMaterial(children);
         }
       })
-      const branch = this.scene.getObjectByName(nameBranch) as Three.Mesh;
-    
+      const branch = this.currentBranchChoise as Three.Mesh;
+      console.log(this.currentBranchChoise as Three.Mesh);
       const pointsBranch = branch.geometry.getAttribute("position").clone();
       pointsBranch.applyMatrix4(branch.matrixWorld);
     
@@ -139,16 +145,17 @@ export class TreeViewer implements AfterViewInit, OnDestroy{
       model.position.copy(randomVector);
       model.updateMatrixWorld();
       this.scene.add(model);  
-    
+
+      this.currentUnderBranchChoise = model.children[0];
     })
   }
 
-  loadingModelLeaves(nameBranch: string)
+  loadingModelLeaves()
   {
     this.modelLoader.load("/Tree/Leaves.glb",(gltf)=>
     {
       const model = gltf.scene;
-      const branch = this.scene.getObjectByName(nameBranch) as Three.Mesh;
+      const branch = (this.currentUnderBranchChoise ? this.currentUnderBranchChoise : this.currentBranchChoise) as Three.Mesh;
       branch.geometry.computeVertexNormals();
 
       const points = branch.geometry.getAttribute("position");
@@ -169,7 +176,7 @@ export class TreeViewer implements AfterViewInit, OnDestroy{
       modelCopy.position.copy(position);
       modelCopy.up.copy(normal);
       modelCopy.lookAt(position.clone().add(normal));
-      modelCopy.scale.set(0.025,0.025,0.025);
+      modelCopy.scale.set(0.10 + Math.random() * 0.13,0.13,0.13);
       modelCopy.rotation.x -= 0.1 + Math.random() * 0.2;
       modelCopy.rotation.y += Math.random() * Math.PI * 0.5;
   
@@ -177,6 +184,7 @@ export class TreeViewer implements AfterViewInit, OnDestroy{
       this.scene.add(modelCopy);       
     })
   }
+
   loadingModelThree()
   {
     this.modelLoader.load("/Tree/BaseTree.glb",(gltf)=>
@@ -193,12 +201,13 @@ export class TreeViewer implements AfterViewInit, OnDestroy{
         }
       })
           
-      model.scale.set(0.2,0.2,0.2);
+      model.scale.set(0.3,0.3,0.2);
       model.updateMatrixWorld(); 
       this.scene.add(model);
     })
   }
 
+ 
   loadingModelPlane()
   {
     this.modelLoader.load("Plane.glb",(gltf)=>{
@@ -241,9 +250,12 @@ export class TreeViewer implements AfterViewInit, OnDestroy{
   {
     // Настройка света
     const sun = new Three.Vector3();
-    const directionLight = new Three.DirectionalLight();
-    directionLight.castShadow = true;
-    directionLight.intensity = 7;
+    // const directionLight = new Three.DirectionalLight();
+    // directionLight.castShadow = true;
+    // directionLight.intensity = 7;
+
+    const ambient = new Three.AmbientLight(0xffffff,3);
+
 
     // Настройка небо
     this.sky.scale.setScalar(45000);
@@ -257,8 +269,8 @@ export class TreeViewer implements AfterViewInit, OnDestroy{
     const theta = Three.MathUtils.degToRad(90); 
     sun.setFromSphericalCoords(1, phi, theta);
     uniforms['sunPosition'].value.copy(sun);
-    directionLight.position.copy(sun).normalize().multiplyScalar(100);
-    this.scene.add(directionLight);
+    // directionLight.position.copy(sun).normalize().multiplyScalar(100);
+    this.scene.add(ambient);
   }
 
   configCamera()

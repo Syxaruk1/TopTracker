@@ -12,14 +12,18 @@
         <div style="display: flex; justify-content: space-between; gap: 4px;">
             @for(item of selectorSpace; track item.title)
             {
-                <div #card class="card-type-space" (click)="choiseTypeSpace(card)">
-                    <img src={{item.image}} class="image-type-space"/>
-                    <span>{{ item.title}}</span>
-                    <span class="span-description-type-space">{{item.description}}</span>
-                </div>
+                <ng-container *ngTemplateOutlet="block_type, context: {$implicit: item}"/>
             }
         </div>
     </div>
 
     <button class="button-add-space">Создать дерево<img src="/Icons/ModalSpace/Tree.png" width="30"/></button>
 </div>
+<!-- Поправить, может получиться ссылка на не тот DIV -->
+<ng-template #block_type let-item>
+    <div #card class="card-type-space" (click)="choiseTypeSpace(card)">
+        <img src={{item.image}} class="image-type-space"/>
+        <span>{{item.title}}</span>
+        <span class="span-description-type-space">{{item.description}}</span>
+    </div>
+</ng-template>

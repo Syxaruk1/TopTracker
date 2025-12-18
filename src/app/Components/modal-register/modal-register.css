@@ -1,0 +1,17 @@
+.main-register-menu
+{
+    background: white; 
+    display: flex;
+    box-sizing: border-box; 
+    flex-direction: column;
+    padding: 25px 25px 25px 25px;
+    width: 360px; 
+    height: auto;
+    border-radius: 14px;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(12px 30px 20px rgba(17,24,39,0.3))
+}
